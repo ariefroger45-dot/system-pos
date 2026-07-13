@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>POS Kafe Pintar</title>
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Kafe POS Pintar</h1>
+      <nav>
+        <a href="#transaksi">Transaksi</a>
+        <a href="#laporan">Laporan</a>
+      </nav>
+    </header>
+    <br />
+    <main>
+      <!-- <section id="daftar-menu">
+        <h2>Menu Kopi dan Cemilan</h2>
+      </section>
+
+      <section id="keranjang-belanja">
+        <h2>Keranjang Belanja</h2>
+      </section> -->
+
+      <form action="/proses-transaksi" method="post">
+        <div>
+          <label for="nama-pelanggan">Nama Pelanggan :</label>
+          <br />
+          <input
+            type="text"
+            id="nama-pelanggan"
+            name="nama-pelanggan"
+            placeholder="Masukkan nama pelanggan"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="jumlah-item">Jumlah Kopi:</label>
+          <br />
+          <input type="number" id="jumlah-item" name="qty" min="1" value="" />
+        </div>
+        <br />
+        <div>
+          <label for="metode-pembayaran">Metode Pembayaran :</label>
+          <br />
+          <select name="payment_method" id="metode-pembayaran">
+            <option value="">Pilih metode pembayaran</option>
+            <option value="Cash">Cash</option>
+            <option value="Qris">Qris</option>
+            <option value="Debit">Debit</option>
+          </select>
+        </div>
+        <br />
+        <button type="submit" class="tombol-bayar">Selesaikan transaksi</button>
+      </form>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 POS Kafe Pintar. Shift Pagi : Andi</p>
+    </footer>
+  </body>
+</html>

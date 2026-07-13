@@ -1,0 +1,16 @@
+.tombol-bayar {
+  background-color: rgb(49, 92, 7);
+  color: rgb(255, 255, 255);
+  border-radius: 3px;
+  padding: 10px;
+  border: 1px black solid;
+}
+
+.card-product {
+  padding: 15px;
+  border: 2px solid rgb(31, 29, 29);
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
