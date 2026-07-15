@@ -1,0 +1,41 @@
+.body {
+  display: flex;
+  /* background-color: aquamarine; */
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.item {
+  display: flex;
+}
+
+.detail-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.harga {
+  font-size: 20px;
+}
+
+.kopi-susu {
+  width: 200px;
+  height: auto;
+}
+
+.add-button-container {
+  display: flex;
+  align-items: center;
+}
+
+.add-button {
+  color: aliceblue;
+  background-color: rgb(9, 144, 61);
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
