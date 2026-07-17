@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POS Kafe Pintar | Sistem Point of Sale</title>
+    <link rel="stylesheet" href="POS%20Kafe%20Pintar%20_%20Sistem%20Point%20of%20Sale_files/layout_NEDE.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo-nav"><a href="#home&gt;"> Anime Tee</a></div>
+        <div class="page-nav">
+          <a href="#design&gt;">Design</a>
+          <a href="#custom&gt;">Custom</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="layout">
+      <section class="section-1">
+        <div class="card-1">
+          <div class="card-content-1">
+            <img src="POS%20Kafe%20Pintar%20_%20Sistem%20Point%20of%20Sale_files/anime1_NEDE.jpg" alt="jeruk">
+            <div>
+              <h1>Fruits</h1>
+              <p>Description of fruit</p>
+            </div>
+          </div>
+          <div class="card-button">
+            <button class="button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="card-1">
+          <div class="card-content-1">
+            <img src="POS%20Kafe%20Pintar%20_%20Sistem%20Point%20of%20Sale_files/anime2_NEDE.jpg" alt="lemon">
+            <div>
+              <h1>Fruits</h1>
+              <p>Description of fruit</p>
+            </div>
+          </div>
+          <div class="card-button">
+            <button class="button">Add to Cart</button>
+          </div>
+        </div>
+      </section>
+      <section class="section-2">
+        <div class="card-2">
+          <div class="card-content-2">
+            <div class="container-img">
+              <img src="POS%20Kafe%20Pintar%20_%20Sistem%20Point%20of%20Sale_files/anime1_NEDE.jpg" alt="jeruk">
+            </div>
+            <div>
+              <h1>Fruits</h1>
+              <p>Description of fruit</p>
+            </div>
+          </div>
+          <div class="card-button card-right-button">
+            <button class="button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="card-2">
+          <div class="card-content-2">
+            <div class="container-img">
+              <img src="POS%20Kafe%20Pintar%20_%20Sistem%20Point%20of%20Sale_files/anime2_NEDE.jpg" alt="lemon">
+            </div>
+            <div>
+              <h1>Fruits</h1>
+              <p>Description of fruit</p>
+            </div>
+          </div>
+          <div class="card-button card-right-button">
+            <button class="button">Add to Cart</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
